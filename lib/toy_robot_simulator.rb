@@ -1,0 +1,5 @@
+require_relative "./bounded_planar_surface_world"
+require_relative "./instruction"
+require_relative "./position"
+require_relative "./robot_controller"
+require_relative "./simple_robot"

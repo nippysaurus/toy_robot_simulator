@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "toy_robot_simulator"
+
+controller = RobotController.new
+
+STDIN.each_line do |line|
+  instruction = Instruction.parse(line)
+  controller.instruct(instruction) if instruction
+end
